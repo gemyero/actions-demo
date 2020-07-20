@@ -10,4 +10,4 @@ jobs:
         env: 
           NAME: Mohamed Gamal
         run: |
-          echo $NAME
+          env
