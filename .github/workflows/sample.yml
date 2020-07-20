@@ -1,0 +1,13 @@
+name: Greeting from gemyero
+on: push
+
+jobs:
+  sample-job:
+    name: Sample Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: print message
+        env: 
+          NAME: Mohamed Gamal
+        run: |
+          echo $NAME
